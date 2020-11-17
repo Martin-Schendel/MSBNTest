@@ -21,6 +21,6 @@ while True:
     print("Total sales for the week: $", format(totalSales, '.2f'), sep="")
 # ask user if they want to run again
     print("Would you like to enter another week?")
-    runAgain = input("Enter Y to continue: ")
+    runAgain = input("Enter Y to continue or N to quit: ")
     if runAgain != "y" and runAgain != "Y":
         break
